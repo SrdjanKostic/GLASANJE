@@ -1,0 +1,104 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url("Asets/Logo2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+.Pozadina {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 75px;
+    font-weight: bolder;
+    color: white;
+    padding: 30px;
+}
+
+.Kandidati {
+    color: white;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.Kandidati li {
+    margin-bottom: 30px;
+}
+
+.Kandidati li input {
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+}
+
+.Kandidati .Sinisa {
+    font-size: 55px;
+    font-weight: bolder;
+    color: rgb(218, 165, 32);
+    text-decoration: underline;
+}
+
+.Kandidati .Sinisa input {
+    height: 45px;
+    width: 45px;
+}
+
+.Kandidati .Dugme {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Kandidati .Dugme p {
+    color: white;
+    background-color: rgb(73, 68, 68);
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.Kandidati .Dugme p:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+/* Media query za telefone i tablete */
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    .Kandidati {
+        font-size: 15px;
+    }
+
+    .Kandidati li input {
+        height: 10px;
+        width: 10px;
+    }
+
+    .Kandidati .Sinisa {
+        font-size: 25px;
+    }
+
+    .Kandidati .Sinisa input {
+        height: 22px;
+        width: 22px;
+    }
+}
